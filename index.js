@@ -14,7 +14,7 @@ app.get("/api1", (req, res) => {
 app.get("/api2", (req, res) => {
   res.json({
     success: true,
-    message: "this is api 2",
+    message: "this is api 2 v1",
   });
 });
 
