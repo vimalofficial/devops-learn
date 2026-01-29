@@ -18,6 +18,16 @@ app.get("/api2", (req, res) => {
   });
 });
 
+
+app.get("/api3", (req, res) => {
+  res.json({
+    success: true,
+    message: "this is api 3 v1",
+  });
+});
+
+
+
 // Start server
 app.listen(PORT, () => {
   console.log(`Server running on http://localhost:${PORT}`);
