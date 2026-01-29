@@ -49,6 +49,6 @@ app.get("/workflow", (req, res) => {
 
 
 // Start server
-app.listen(PORTs, () => {
+app.listen(PORT, () => {
   console.log(`Server running on http://localhost:${PORT}`);
 });
