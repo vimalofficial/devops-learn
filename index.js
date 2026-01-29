@@ -27,6 +27,16 @@ app.get("/api3", (req, res) => {
 });
 
 
+app.get("/vimal", (req, res) => {
+  res.json({
+    success: true,
+    message: "hello world the devops trigger successfully worked",
+  });
+});
+
+
+
+
 
 // Start server
 app.listen(PORT, () => {
