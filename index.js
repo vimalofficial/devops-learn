@@ -35,6 +35,16 @@ app.get("/vimal", (req, res) => {
 });
 
 
+app.get("/workflow", (req, res) => {
+  res.json({
+    success: true,
+    message: "hello world the devops trigger successfully worked",
+  });
+});
+
+
+
+
 
 
 
